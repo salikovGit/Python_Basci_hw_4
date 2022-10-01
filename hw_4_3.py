@@ -23,11 +23,9 @@ def upper_case(file_name):
             if int(a[-1]) == 5:
                 a = ' '.join(a)
                 text = text + a.upper() + '\n'
-                print(text)
             else:
                 a = ' '.join(a)
                 text = text + a + '\n'
-                print(text)
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(text)
 
